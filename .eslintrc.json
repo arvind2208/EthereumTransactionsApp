@@ -1,0 +1,56 @@
+{
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions":  {
+    "ecmaVersion":  2018,  // Allows for the parsing of modern ECMAScript features
+    "sourceType":  "module",  // Allows for the use of imports
+    "ecmaFeatures":  {
+      "jsx":  true  // Allows for the parsing of JSX
+      }
+    },
+    "rules":  {
+      // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
+      // e.g. "@typescript-eslint/explicit-function-return-type": "off",
+    },
+    "settings":  {
+      "react":  {
+        "version":  "detect"  // Tells eslint-plugin-react to automatically detect the version of React to use
+      }
+    },
+  // "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
+  // "env": {
+  //   "browser": true,
+  //   "jasmine": true,
+  //   "jest": true,
+  //   "es6": true,
+  //   "node": true
+  // },
+  // "rules": {
+  //   "no-console": ["warn"],
+  //   "react-hooks/rules-of-hooks": "error",
+  //   "react-hooks/exhaustive-deps": "warn",
+  //   "react/prop-types": ["off"],
+  //   "react/display-name": ["warn"],
+  //   "prettier/prettier": ["error", { "singleQuote": true }],
+  //   "@typescript-eslint/no-empty-interface": ["off"],
+  //   "@typescript-eslint/no-empty-function": ["warn"],
+  //   "@typescript-eslint/explicit-function-return-type": ["off"]
+  // },
+  // "settings": {
+  //   "react": {
+  //     "pragma": "React",
+  //     "version": "detect"
+  //   },
+  //   "import/resolver": {
+  //     "node": {
+  //       "paths": ["src"]
+  //     }
+  //   }
+  // },
+  "parser": "@typescript-eslint/parser"
+}
