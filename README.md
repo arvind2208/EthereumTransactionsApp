@@ -9,6 +9,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Run the following command to install node packages:
+
+### `yarn install`
+
 To start the app server, you can run:
 
 ### `yarn start`
